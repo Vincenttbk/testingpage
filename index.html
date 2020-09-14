@@ -10,12 +10,25 @@
     <br>
     <br>
     <br>
+    <button onclick="helloPage()">Please Press here</button>
+    <br>
+    <br>
+    <br>
+    <br>
     <button onclick="exitPage()">Please Press here</button>
   </body>
   
   <script>
-    function exitPage(){
+    function helloPage(){
       alert("Hello");
     }
   </script>
+  
+  <script>
+    function exitPage(){
+      window.location.href = "/exit";
+    }
+  </script>
+  
+
 </html>
